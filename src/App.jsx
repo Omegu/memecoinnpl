@@ -40,7 +40,7 @@ function App() {
       <div className="w-full max-w-md">
         <header className="text-center mb-6">
           <h1 className="text-4xl font-black tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-            🚀 MOON CALC
+            🚀 MOON CALCULATOR
           </h1>
           <p className="text-slate-400 text-xs mt-1 uppercase tracking-widest">Memecoin PnL Tracker</p>
         </header>
@@ -105,8 +105,8 @@ function App() {
                       key={v}
                       onClick={() => setValues({ ...values, targetMC: v })}
                       className={`flex-1 py-2 rounded-xl text-[10px] font-black transition-all duration-200 border ${isActive
-                          ? 'bg-emerald-500 border-emerald-400 text-slate-950 shadow-lg shadow-emerald-500/20 scale-105'
-                          : 'bg-white/5 border-white/10 text-slate-400 hover:bg-white/10 hover:border-white/20'
+                        ? 'bg-emerald-500 border-emerald-400 text-slate-950 shadow-lg shadow-emerald-500/20 scale-105'
+                        : 'bg-white/5 border-white/10 text-slate-400 hover:bg-white/10 hover:border-white/20'
                         }`}
                     >
                       {(v / 1000000)}M
