@@ -1,16 +1,47 @@
-# React + Vite
+# 🚀 MOON CALC - Memecoin PnL Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MOON CALC** เป็นเว็บแอปพลิเคชันสำหรับคำนวณกำไร/ขาดทุน (PnL) และคาดการณ์ราคาเป้าหมายของเหรียญ Memecoin โดยอิงจาก Market Cap เหมาะสำหรับชาวคริปโตที่ต้องการวางแผนกลยุทธ์ก่อนตัดสินใจลงทุน
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Real-time Calculation:** คำนวณผลลัพธ์ทันทีเมื่อมีการเปลี่ยนแปลงตัวเลข ไม่ต้องกดปุ่ม
+- **Target MC Shortcuts:** ปุ่มทางลัดสำหรับเลือก Market Cap ยอดนิยม (1M, 10M, 50M, 100M)
+- **Glassmorphism UI:** ดีไซน์ทันสมัย สไตล์ Web3 ใช้งานง่ายและสะอาดตา
+- **Responsive Design:** รองรับการใช้งานสมบูรณ์แบบทั้งบนคอมพิวเตอร์และมือถือ
+- **Light Mode Optimization:** ปรับจูนสีให้สบายตา อ่านข้อมูลได้ชัดเจนทุกสภาพแสง
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- **Frontend Framework:** [React.js](https://reactjs.org/) (Vite)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons/Emoji:** Standard Unicode Emojis
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Use (วิธีใช้งาน)
+1. **Investment:** กรอกจำนวนเงินที่คุณต้องการลงทุน (USD)
+2. **Entry Price:** กรอกราคาเหรียญที่คุณซื้อมา
+3. **Entry MC:** กรอก Market Cap ของเหรียญในขณะที่ซื้อ
+4. **Target Market Cap:** กรอก Market Cap เป้าหมายที่ต้องการ (หรือกดปุ่มลัดด้านล่าง)
+5. **Results:** ระบบจะแสดงผลกำไรสุทธิ (Net Profit), มูลค่าพอร์ตทั้งหมด (Total Value), และราคาเหรียญเมื่อถึงเป้าหมาย (Target Price) โดยอัตโนมัติ
+
+---
+
+## 📦 Installation & Setup
+หากต้องการรันโปรเจกต์นี้บนเครื่องของคุณเอง:
+
+```bash
+# 1. Clone โปรเจกต์
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+
+# 2. เข้าไปในโฟลเดอร์
+cd YOUR_REPO_NAME
+
+# 3. ติดตั้ง Dependencies
+npm install
+
+# 4. รันโปรเจกต์ (Development Mode)
+npm run dev
