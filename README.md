@@ -30,18 +30,3 @@
 
 ---
 
-## 📦 Installation & Setup
-หากต้องการรันโปรเจกต์นี้บนเครื่องของคุณเอง:
-
-```bash
-# 1. Clone โปรเจกต์
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-
-# 2. เข้าไปในโฟลเดอร์
-cd YOUR_REPO_NAME
-
-# 3. ติดตั้ง Dependencies
-npm install
-
-# 4. รันโปรเจกต์ (Development Mode)
-npm run dev
